@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+
+</head>
+<body>
+<svg width=800 height=800>
+
+<!-- title     -->
+
+	<g id='groupID' stroke= 'blue'>
+		<title>사각형과 원</title>
+		<rect id='rectID' x='50' y='10' width='100' height='100' stroke='blue' fill='lime' />
+
+		<circle cx='150' cy='60' r='40' fill='blue' />
+	</g>
+
+	<!-- desc     -->
+
+
+	<!-- path   M move to   L  line to  z : line to first point-->
+	<path d='M200,70 L260,10 L320,70 z' fill='lime' stroke-width=3 stroke='blue' />
+  <!-- path use  small m, l  -->
+  <path d='M200,140 l60,-60 l60,60 z' fill='orange' stroke-width=3 stroke='green' />
+
+  <path d='M0,170 L50,140 L100,170' stroke-width=3 stroke='blue'fill='none'/>
+  <path d="M50,150 50,250" stroke-width=3 stroke="blue" />
+
+  <!-- 이등변 삼각형 -->
+  <path d='M350,100 l50,-100 l100,0 l50,100 z' fill='yellowgreen' stroke='blue' stroke-width='3' />
+  
+  <!--  H,h 수평성 h : x point  -->
+  <path d='M20,280 h100' fill='none' stroke='blue' stroke-width='3' />
+
+  <!-- V, v 수직선-->
+  <path d='M30,300 v100' fill='none' stroke='blue' stroke-width='3' />
+  
+  <!-- 타원 A,a    rx ry x-axis-rotation large-arc-flag(0,1) sweep-flag x y  -->
+  <g stroke-width='1' fill=none stroke='blue'>
+    <path d='M600,50 A50,50 0 1,0 750,50' />
+    <path d='M600,170 A80,50 0 1,0 690,180' />
+  </g>
+
+  <!-- -->
+  <line x1='600' y1='50' x2='750' y2='50' stroke='red' stroke-width='3' />
+  
+  <g fill='none' stroke-width='3' stroke='black'>
+    <path d='M180,180 A50,50 0 1,0 210,180' />
+    <path d='M180,300 A50,50 0 1,0 210,400' />
+    <path d='M180,420 A50,50 0 1,0 210,600' />
+
+   </g>
+  <g fill='none' stroke-width='3'>
+   <!--   짧은 호이면서 시계 반대 방향 -->
+   <path d='M370,180 A80,50 0 0,0 420,230' stroke='blue' />
+
+   <!--  긴호 이면서 시계 반대 방향 -->
+   <path d='M370,180 A80,50 0 1,0 420,230' stroke='red' />
+  </g>
+
+  <g fill=none stroke-width=5>
+    <path d='M380,300 A100,50 0 0,0 380,450' stroke='blue' />
+    <path d='M380,300 A100,50 30 0,0 380,450' stroke='red' />
+    <path d='M380,300 A100,50 90 0,0 380,450' stroke='yellow' />
+    <path d='M380,300 A100,50 150 0,0 380,450' stroke='green' />
+  </g>
+
+  <!-- 타원호 크기 구하기-->
+  
+
+  <!-- bezier curve   Q,q -->
+  <g fill=none stroke-width=5>
+    <path d='M480,450 L550,300 L630,450' stroke='orange'/>
+    <path d='M480,450 Q550,250 630,450' stroke='gray' />
+    <path d='M480,450 Q550,300 630,450' stroke='gray' />
+    <path d='M480,450 Q550,350 630,450' stroke='gray' />
+  </g>
+
+
+  <!-- 2차 베이지 곡선  -->
+  <g fill=none stroke-width=5>
+    <path d='M300,470 V630 M380,470 V630 M460,470 V630 M540,470 V630 M620,470 V630' stroke='lime'/>
+    <path d='M300,470 H620 M300,550 H620 M300,630 H620' stroke='yellow' />
+    <path d='M300,550 Q380,400 460,550 T620,550' stroke='blue' />
+  </g>
+
+  <!-- 3차 베이지 곡선 -->
+  <path d='M50,700 C50,600 150,600 150,700 S250,800 250,700' stroke = 'pink' fill='none' stroke-width='5'/>
+
+  <!-- text -->
+  <text x=300 y=700 font-size=34>굳 잡!</text>
+  <line x1=300 y1=700 x2=400 y2=700 stroke=orange stroke-width=1 />
+  <text x=400 y=700 font-size=34>good job</text>
+  <line x1=400 y1=700 x2=520 y2=700 stroke=orange stroke-width=1 />
+  <text x=300 y=740 dx=-50 font-size=34>굳 잡!</text>
+  <text x=300 y=780 dx=50 font-size=34>굳 잡!</text>
+  <path d='M300,650 V800' stroke='tomato' />
+  <path d='M250,650 V800' stroke='tomato' />
+  <path d='M350,650 V800' stroke='tomato' />
+
+  <!-- textLength   -->
+  <g font-size=23>
+    <text x=530 y=660>가나다라마</text>
+    <text x=530 y=690 textlENGTH=130>가나다라마</text>
+    <text x=530 y=720 textlENGTH=250>가나다라마</text>
+    <path d='M720,680 V800' stroke='tomato' />
+    <!-- lengthAdjust  -->
+    <text x=530 y=750 textlENGTH=250 lengthAdjust=spacingAndGlyphs>가나다라마</text>
+  </g>
+
+
+
+
+
+
+
+
+</svg>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
