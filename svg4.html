@@ -1,0 +1,349 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+  </head>
+
+  <body>
+  <svg width=1000 height=1800>
+    <defs>
+      <marker id='id1' refX=0 refY=0 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=blue />
+      </marker>
+      <marker id='id2' refX=0 refY=1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=red />
+      </marker>
+      <marker id='id3' refX=0 refY=2 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=green />
+      </marker>
+      <marker id='id4' refX=0 refY=-1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=tomato />
+      </marker>
+      <marker id='id5' refX=0 refY=-2 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=gray />
+      </marker>
+      <marker id='id6' refX=2 refY=1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=skyblue />
+      </marker>
+      <marker id='id7' refX=4 refY=1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=pink />
+      </marker>
+      <marker id='id8' refX=-2 refY=1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=yellowgreen />
+      </marker>
+      <marker id='id9' refX=-4 refY=1 markerUnits='strokeWidth'>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id10' refX=0 refY=1 markerWidth=0>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id11' refX=0 refY=1 markerWidth=1>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id12' refX=0 refY=1 markerWidth=2>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id13' refX=0 refY=1 markerHeight=0>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id14' refX=0 refY=1 markerHeight=1>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id15' refX=0 refY=1 markerHeight=2>
+        <path d='M0,0 L2,1 L0,2 L0,0'fill=navy />
+      </marker>
+      <marker id='id16' refX=10 refY=10 markerUnits='userSpaceOnUse' markerWidth=20 markerheight=20>
+        <circle cx=10 cy=10 r=10 fill=green />
+      </marker>
+      <marker id='id17' refX=10 refY=10 markerUnits='userSpaceOnUse' markerWidth=30 markerheight=20>
+        <rect x=10 y=0 width=20 height=20 fill=green />
+      </marker>
+      <marker id='id18' refX=10 refY=10 markerUnits='userSpaceOnUse' markerWidth=40 markerheight=40>
+        <path d='M0,0 L20,10 L0,20 Z'fill=green />
+      </marker>
+      <marker id='id19' refX=0 refY=1 orient=60>
+        <path d='M0,0 L2,1 L0,2 L0,0' fill=green />
+      </marker>
+
+
+    </defs>
+
+    <path d='M0,20 L200,20' stroke='red' fill='none' stroke-width=1 />
+
+    <!-- refY   -->
+    <path d='M30,20 L150,20' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id1)'/>
+    <path d='M30,60 L150,60' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id2)'/>
+    <path d='M30,100 L150,100' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id3)'/>
+    <path d='M30,130 L150,130' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id4)'/>
+    <path d='M30,180 L150,180' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id5)'/>
+    
+
+    <!--   refX    -->
+    <path d='M30,230 L150,230' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id6)'/>
+    <path d='M30,260 L150,260' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id7)'/>
+    <path d='M30,290 L150,290' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id8)'/>
+    <path d='M30,320 L150,320' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id9)'/>
+    
+    <!-- markerWidth  -->
+    <path d='M30,350 L150,350' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id10)'/>
+    <path d='M30,380 L150,380' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id11)'/>
+    <path d='M30,410 L150,410' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id12)'/>
+    
+
+    <!-- markerHeight  -->
+    <path d='M30,440 L150,440' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id13)'/>
+    <path d='M30,470 L150,470' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id14)'/>
+    <path d='M30,500 L150,500' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id15)'/>
+    
+    <!-- markerUnits='userSpaceOnUse -->
+    <path d='M200,20 L320,20' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id16)'/>
+    <path d='M200,60 L320,60' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id17)'/>
+    <path d='M200,100 L320,100' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id18)'/>
+
+    <!-- orient=angle  -->
+    <path d='M470,120 L470,20' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id19)'/>
+    <path d='M465,125 L365,125' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id19)'/>
+    <path d='M475,125 L575,125' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id19)'/>
+    <path d='M470,130 L470,230' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id19)'/>
+
+    <!--    marker Position   -->
+
+    <path d='M200,140 L320,140' stroke='#4466FF' fill='none' stroke-width=10 marker-start='url(#id2)'/>
+    <path d='M200,180 L320,180' stroke='#4466FF' fill='none' stroke-width=10 marker-end='url(#id2)'/>
+    <path d='M200,220 L260,250 L320,220' stroke='#4466FF' fill='none' stroke-width=10 marker-mid='url(#id2)'/>
+
+    <!--   <a>   -->
+    <a xlink:href="http://jdmstudio.photo" target='_blank'>
+      <rect x='210' y='265' rx='10' width='150' height='40' fill='white' stroke='blue' />
+      <text x='230' y='290'>SVG Hyperlink</text>
+    </a>
+
+    <!--    <image>     
+    width, height 를 작성하지 않으면 이미지가 표시되지 않음 -->
+
+    <image x=600 y=0 width=150 height=150 xlink:href='facebook_icon.png'>
+    <title>IMAGE</title>
+    </image>
+    <image x=600 y=150 width=50 height=50 xlink:href='facebook_icon.png'></image>
+    <image x=650 y=0 width=50 height=150 xlink:href='facebook_icon.png'></image>
+    <image x=600 y=150 width=150 height=50 xlink:href='facebook_icon.png' ></image>
+
+
+    <!-- preserveAspectRatio   -->
+    <!--  align    none, x Y, Max Min Mid    xMaxYMin-->
+
+    <g fill=none stroke-width=1 stroke=red>
+      <rect x=600 y=200 width=150 height=150 />
+      <rect x=600 y=350 width=150 height=150 />
+      <rect x=600 y=500 width=150 height=150 />
+      <rect x=450 y=350 width=150 height=150 />
+      <rect x=450 y=500 width=150 height=150 />
+    </g>
+
+    <image x=600 y=200 width=150 height=150 xlink:href='facebook_icon.png'>    </image>
+    <image x=450 y=350 width=50 height=150 xlink:href='facebook_icon.png' preserveAspectRatio='none'>    </image>
+    <image x=450 y=500 width=150 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='none'>    </image>
+    <image x=600 y=350 width=200 height=150 xlink:href='facebook_icon.png' preserveAspectRatio='none'>    </image>
+    <image x=600 y=500 width=150 height=200 xlink:href='facebook_icon.png' preserveAspectRatio='none'>    </image>
+
+
+
+
+
+
+
+
+
+
+    <!--  meet & slice    -->
+    <g fill=none stroke-width=1 stroke=red>
+      <rect x=50 y=550 width=100 height=100 />
+      <rect x=150 y=550 width=100 height=100 />
+      <rect x=250 y=550 width=100 height=100 />
+      <rect x=50 y=650 width=100 height=100 />
+      <rect x=150 y=650 width=100 height=100 />
+      <rect x=250 y=650 width=100 height=100 />
+      <rect x=50 y=750 width=100 height=100 />
+      <rect x=150 y=750 width=100 height=100 />
+      <rect x=250 y=750 width=100 height=100 />
+    </g>
+    <image x=50 y=550 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMin meet'> </image>
+    <image x=150 y=550 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMin meet'> </image>
+    <image x=250 y=550 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMin meet'> </image>
+    <image x=50 y=650 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMid meet'> </image>
+    <image x=150 y=650 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMid meet'> </image>
+    <image x=250 y=650 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMid meet'> </image>
+    <image x=50 y=750 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMax meet'> </image>
+    <image x=150 y=750 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMax meet'> </image>
+    <image x=250 y=750 width=100 height=50 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMax meet'> </image>
+    <text x=70 y=640>xMinYMin</text>
+    <text x=170 y=640>xMidYMin</text>
+    <text x=270 y=640>xMaxYMin</text>
+    <text x=70 y=740>xMinYMid</text>
+    <text x=170 y=740>xMidYMid</text>
+    <text x=270 y=740>xMaxYMid</text>
+    <text x=70 y=840>xMinYMax</text>
+    <text x=170 y=840>xMidYMax</text>
+    <text x=270 y=840>xMaxYMax</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <g fill=none stroke-width=1 stroke=red>
+      <rect x=50 y=900 width=100 height=100 />
+      <rect x=150 y=900 width=100 height=100 />
+      <rect x=250 y=900 width=100 height=100 />
+      <rect x=50 y=1000 width=100 height=100 />
+      <rect x=150 y=1000 width=100 height=100 />
+      <rect x=250 y=1000 width=100 height=100 />
+      <rect x=50 y=1100 width=100 height=100 />
+      <rect x=150 y=1100 width=100 height=100 />
+      <rect x=250 y=1100 width=100 height=100 />
+    </g>
+    <image x=50 y=900 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMin meet'> </image>
+    <image x=150 y=900 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMin meet'> </image>
+    <image x=250 y=900 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMin meet'> </image>
+    <image x=50 y=1000 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMid meet'> </image>
+    <image x=150 y=1000 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMid meet'> </image>
+    <image x=250 y=1000 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMid meet'> </image>
+    <image x=50 y=1100 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMax meet'> </image>
+    <image x=150 y=1100 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMax meet'> </image>
+    <image x=250 y=1100 width=50 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMax meet'> </image>
+    <text x=70 y=980>xMinYMin</text>
+    <text x=170 y=980>xMidYMin</text>
+    <text x=270 y=980>xMaxYMin</text>
+    <text x=70 y=1090>xMinYMid</text>
+    <text x=170 y=1090>xMidYMid</text>
+    <text x=270 y=1090>xMaxYMid</text>
+    <text x=70 y=1130>xMinYMax</text>
+    <text x=170 y=1130>xMidYMax</text>
+    <text x=270 y=1130>xMaxYMax</text>
+
+
+
+
+
+
+
+
+
+
+    <path d='M50,1250 v300 h300 v-300 h-300 m100,0 v300 m100,0 v-300 m100,100 h-300 m0,100 h300' fill=none stroke=red stroke-width=1 />
+
+
+
+    <image x=50 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMin meet'> </image>
+    <image x=150 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMin meet'> </image>
+    <image x=250 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMin meet'> </image>
+    <image x=50 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMid meet'> </image>
+    <image x=150 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMid meet'> </image>
+    <image x=250 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMid meet'> </image>
+    <image x=50 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMax meet'> </image>
+    <image x=150 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMax meet'> </image>
+    <image x=250 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMax meet'> </image>
+    <text x=70 y=1330>xMinYMin</text>
+    <text x=170 y=1330>xMidYMin</text>
+    <text x=270 y=1330>xMaxYMin</text>
+    <text x=70 y=1430>xMinYMid</text>
+    <text x=170 y=1430>xMidYMid</text>
+    <text x=270 y=1430>xMaxYMid</text>
+    <text x=70 y=1530>xMinYMax</text>
+    <text x=170 y=1530>xMidYMax</text>
+    <text x=270 y=1530>xMaxYMax</text>
+
+
+
+
+
+
+
+
+
+
+    <path d='M400,900 v300 h300 v-300 h-300 m100,0 v300 m100,0 v-300 m100,100 h-300 m0,100 h300' fill=none stroke=red stroke-width=1 />
+
+   
+    <image x=400 y=900 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMin slice'> </image>
+    <image x=500 y=900 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMin slice'> </image>
+    <image x=600 y=900 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMin slice'> </image>
+    <image x=400 y=1000 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMid slice'> </image>
+    <image x=500 y=1000 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMid slice'> </image>
+    <image x=600 y=1000 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMid slice'> </image>
+    <image x=400 y=1100 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMax slice'> </image>
+    <image x=500 y=1100 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMax slice'> </image>
+    <image x=600 y=1100 width=100 height=70 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMax slice'> </image>
+    <text x=420 y=980>xMinYMin</text>
+    <text x=520 y=980>xMidYMin</text>
+    <text x=620 y=980>xMaxYMin</text>
+    <text x=420 y=1090>xMinYMid</text>
+    <text x=520 y=1090>xMidYMid</text>
+    <text x=620 y=1090>xMaxYMid</text>
+    <text x=420 y=1180>xMinYMax</text>
+    <text x=520 y=1180>xMidYMax</text>
+    <text x=620 y=1180>xMaxYMax</text>
+
+
+
+
+
+
+    <path d='M400,1250 v300 h300 v-300 h-300 m100,0 v300 m100,0 v-300 m100,100 h-300 m0,100 h300' fill=none stroke=red stroke-width=1 />
+
+    <image x=400 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMin slice'> </image>
+    <image x=500 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMin slice'> </image>
+    <image x=600 y=1250 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMin slice'> </image>
+    <image x=400 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMid slice'> </image>
+    <image x=500 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMid slice'> </image>
+    <image x=600 y=1350 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMid slice'> </image>
+    <image x=400 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMinYMax slice'> </image>
+    <image x=500 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMidYMax slice'> </image>
+    <image x=600 y=1450 width=70 height=100 xlink:href='facebook_icon.png' preserveAspectRatio='xMaxYMax slice'> </image>
+    <text x=420 y=1330>xMinYMin</text>
+    <text x=520 y=1330>xMidYMin</text>
+    <text x=620 y=1330>xMaxYMin</text>
+    <text x=420 y=1430>xMinYMid</text>
+    <text x=520 y=1430>xMidYMid</text>
+    <text x=620 y=1430>xMaxYMid</text>
+    <text x=420 y=1530>xMinYMax</text>
+    <text x=520 y=1530>xMidYMax</text>
+    <text x=620 y=1530>xMaxYMax</text>
+
+</svg>
+
+    <!-- difer     miss  -->
+<!-- <svg xmlns="http://jdmstudio.photo" xmlns:xlink="http://jdmstudio.photo">
+</svg> -->
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+</html>
+
+
+
+
+
